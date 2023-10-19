@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceAssist", "InterfaceAssist\InterfaceAssist.csproj", "{53BB9C7D-6932-47E6-8260-7D480282F71E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{195D68EF-BA76-4A45-985F-1263F8DB2FF0} = {195D68EF-BA76-4A45-985F-1263F8DB2FF0}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceClassLibrary", "InterfaceClassLibrary\InterfaceClassLibrary.csproj", "{195D68EF-BA76-4A45-985F-1263F8DB2FF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53BB9C7D-6932-47E6-8260-7D480282F71E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53BB9C7D-6932-47E6-8260-7D480282F71E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53BB9C7D-6932-47E6-8260-7D480282F71E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53BB9C7D-6932-47E6-8260-7D480282F71E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{195D68EF-BA76-4A45-985F-1263F8DB2FF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{195D68EF-BA76-4A45-985F-1263F8DB2FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{195D68EF-BA76-4A45-985F-1263F8DB2FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{195D68EF-BA76-4A45-985F-1263F8DB2FF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05620E62-C94F-4756-83EE-CE2EA7AD7F17}
+	EndGlobalSection
+EndGlobal
